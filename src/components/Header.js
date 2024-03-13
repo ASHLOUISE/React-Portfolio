@@ -1,5 +1,7 @@
 import React from 'react';
-import logoImage from '';
+import logoImage from '../images/Frenchie.png';
+
+
 const Header = () => {
   return (
     <header>
