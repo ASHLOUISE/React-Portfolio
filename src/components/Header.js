@@ -1,12 +1,12 @@
 import React from 'react';
-import logoImage from '';
-
+import logoImage from '../assets/Frenchie.png'; 
 
 const Header = () => {
   return (
     <header>
-      <h1>My Portfolio</h1>
-      <div className="logo">Ashley Paluzzi</div>
+      <div className="logo">
+        <img src={logoImage} alt="Your Logo" />
+      </div>
       <nav>
         <ul>
           <li><a href="#about">About Me</a></li>
