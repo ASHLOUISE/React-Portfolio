@@ -1,5 +1,5 @@
 import React from 'react'
-import myImage from './'
+import myImage from '../components/assets/'
 
 export default function HomeSection() {
   return (
