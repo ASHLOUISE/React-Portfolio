@@ -10,7 +10,7 @@ const NavMenuStyles = styled.div`
     left: 0;
     width: 100%;
     padding: 1rem 0;
-    background-color: #B08968;
+    background-color: #white;
     ul {
         max-width: 1200px;
         width: 90%;

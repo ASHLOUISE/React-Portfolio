@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import myImage from 'public/Ash.jpg';
+import myImage from '../components/Ash.jpg';
 
 const HomeSectionContainer = styled.div`
   .container {
