@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImage from '../assets/Frenchie.png'; 
+import logoImage from '../public/favicon.ico'; 
 
 const Header = () => {
   return (
