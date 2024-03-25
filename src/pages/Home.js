@@ -1,7 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import myImage from "../";
+import myImage from "../components/imageedit_1_8138802605.png";
 import PText from "../components/PText";
+
+import "@fontsource/pacifico";
+
 
 const Container = styled.div`
   position: relative;
@@ -13,41 +16,42 @@ const Container = styled.div`
   background-color: #283618;
 `;
 
-const Heading = styled.h1`
-  font-size: 4rem;
-  color: #ecf39e;
-  position: absolute;
-  top: 16%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: 'Poppins', sans-serif;
-  z-index: 1;
-`;
-
 const Image = styled.img`
-  width: 20%;
-  height: 50%;
-  border: 1px solid white; 
-  box-sizing: border-box;
+  width: 40%;
+  height: 70%;
 `;
 
-const Info = styled.div`
-  position: absolute;
-  top: 73%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+const TextContainer = styled.div`
+  text-align: left;
+  padding-left: 20px;
+`;
+
+const Heading = styled.h1`
+  font-size: 8rem;
+  color: #ecf39e;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  margin: 0;
+  text-decoration: underline;
+`;
+
+const SubHeading = styled.h2`
+  font-size: 3rem;
   text-align: center;
-  z-index: 1;
+  color: black;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
 `;
 
 export default function Home() {
   return (
     <Container>
-      <Image src={myImage} alt="Ashley Paluzzi" />
-      <Heading>Ashley Paluzzi</Heading>
-      <Info>
+      <TextContainer>
+        <Heading>Ashley Paluzzi</Heading>
+        <SubHeading>Welcome to my portfolio!</SubHeading>
         <PText />
-      </Info>
+      </TextContainer>
+      <Image src={myImage} alt="Logo" />
     </Container>
   );
 }
