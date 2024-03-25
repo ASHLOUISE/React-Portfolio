@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
-
 const NavMenuStyles = styled.div`
     position: fixed;
     z-index: 100;
@@ -10,7 +9,7 @@ const NavMenuStyles = styled.div`
     left: 0;
     width: 100%;
     padding: 1rem 0;
-    background-color: #white;
+    background-color: black;
     ul {
         max-width: 1200px;
         width: 90%;
@@ -21,7 +20,7 @@ const NavMenuStyles = styled.div`
             border-radius: 8px;
             transition: 0.3s ease background-color;
             &:hover {
-                background-color: #E6CCB2;
+                background-color: #a98467;
             }
         }
         a {
@@ -29,12 +28,13 @@ const NavMenuStyles = styled.div`
             font-family: 'Poppins', sans-serif;
             padding: 1rem 2rem;
             font-size: 1rem;
-            color: #1E1E1E;
+            color: white;
             outline: none;
             text-decoration: none;
         }
         .active {
-            color: white;
+            color: #ecf39e;
+            font-weight: bold; /* Add a style for the active link */
         }
     }
 `;
@@ -44,22 +44,21 @@ export default function NavMenu() {
         <NavMenuStyles>
             <ul>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink exact to="/" activeClassName="active">HOME</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/about" activeClassName="active">ABOUT ME</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/resume">Resume</NavLink>
+                    <NavLink to="/resume" activeClassName="active">RESUME</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/portfolio">Portfolio</NavLink>
+                    <NavLink to="/portfolio" activeClassName="active">PORTFOLIO</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/Contact">Contact</NavLink>
+                    <NavLink to="/Contact" activeClassName="active">CONTACT</NavLink>
                 </li>
             </ul>
         </NavMenuStyles>
     );
 }
-
