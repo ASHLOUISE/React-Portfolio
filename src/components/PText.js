@@ -8,6 +8,6 @@ const Text = styled.p`
   text-align: center;
 `;
 
-export default function PText() {
-  return <Text>Welcome to my portfolio!</Text>;
+export default function PText({ children }) {
+  return <Text>{children}</Text>;
 }

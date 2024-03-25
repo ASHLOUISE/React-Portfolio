@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import myImage from "../components/HomeImage.JPG";
+import myImage from "../";
 import PText from "../components/PText";
 
 const Container = styled.div`
