@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import myImage from "../components/imageedit_1_8138802605.png";
 import PText from "../components/PText";
+import Footer from "../components/Footer";
 
 import "@fontsource/pacifico";
 
@@ -45,13 +46,16 @@ const SubHeading = styled.h2`
 
 export default function Home() {
   return (
-    <Container>
-      <TextContainer>
-        <Heading>Ashley Paluzzi</Heading>
-        <SubHeading>Welcome to my portfolio!</SubHeading>
-        <PText />
-      </TextContainer>
-      <Image src={myImage} alt="Logo" />
-    </Container>
+    <>
+      <Container>
+        <TextContainer>
+          <Heading>Ashley Paluzzi</Heading>
+          <SubHeading>Welcome to my portfolio!</SubHeading>
+          <PText />
+        </TextContainer>
+        <Image src={myImage} alt="Logo" />
+      </Container>
+      <Footer />
+    </>
   );
 }
