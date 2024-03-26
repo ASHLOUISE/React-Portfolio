@@ -50,14 +50,13 @@ const Heading = styled.h1`
 
 const AboutText = styled.p`
   color: #ecf39e;
-  font-size: 1.6rem; /* Adjust the font size for the About Me page */
+  font-size: 1.6rem; 
   font-family: "Poppins", sans-serif;
   text-align: left;
   line-height: 1.6;
 
   &.about-text {
     font-size: 1.2rem;
-
   }
 `;
 
@@ -77,52 +76,53 @@ export default function About() {
           <br />
           <br />
           <strong>What I Bring to the Table</strong>
-          <br />
-          <ul>
-            <li>
-              HTML, CSS, JavaScript: These are the building blocks of the web,
-              and I've mastered them to create stunning and responsive user
-              interfaces.
-              <br />
-            </li>
-            <li>
-              API Integration: I'm proficient in integrating both third-party
-              APIs and building server-side APIs to enhance the functionality of
-              web applications.
-              <br />
-            </li>
-            <li>
-              Node.js and Express.js: I leverage the power of Node.js and
-              Express.js to build scalable and efficient server-side
-              applications.
-              <br />
-            </li>
-            <li>
-              Database Management: From traditional SQL databases to modern
-              NoSQL solutions, I've got the skills to design and manage
-              databases effectively.
-              <br />
-            </li>
-            <li>
-              MVC and ORM: I'm well-versed in using MVC architecture and ORM
-              frameworks to keep my code organized and maintainable.
-              <br />
-            </li>
-            <li>
-              React and MERN Stack: React has become my go-to library for
-              building dynamic and interactive frontends, and I'm adept at
-              crafting full-stack applications using the MERN (MongoDB,
-              Express.js, React, Node.js) stack.
-              <br />
-            </li>
-            <li>
-              Progressive Web Apps (PWAs): I believe in creating web
-              applications that provide a seamless experience across all
-              devices, and PWAs allow me to achieve that by leveraging modern
-              web capabilities.
-              <br />
-            </li>
-          </ul>
+          <div>
+            <ul>
+              <li>
+                HTML, CSS, JavaScript: These are the building blocks of the web,
+                and I've mastered them to create stunning and responsive user
+                interfaces.
+                <br />
+              </li>
+              <li>
+                API Integration: I'm proficient in integrating both third-party
+                APIs and building server-side APIs to enhance the functionality of
+                web applications.
+                <br />
+              </li>
+              <li>
+                Node.js and Express.js: I leverage the power of Node.js and
+                Express.js to build scalable and efficient server-side
+                applications.
+                <br />
+              </li>
+              <li>
+                Database Management: From traditional SQL databases to modern
+                NoSQL solutions, I've got the skills to design and manage
+                databases effectively.
+                <br />
+              </li>
+              <li>
+                MVC and ORM: I'm well-versed in using MVC architecture and ORM
+                frameworks to keep my code organized and maintainable.
+                <br />
+              </li>
+              <li>
+                React and MERN Stack: React has become my go-to library for
+                building dynamic and interactive frontends, and I'm adept at
+                crafting full-stack applications using the MERN (MongoDB,
+                Express.js, React, Node.js) stack.
+                <br />
+              </li>
+              <li>
+                Progressive Web Apps (PWAs): I believe in creating web
+                applications that provide a seamless experience across all
+                devices, and PWAs allow me to achieve that by leveraging modern
+                web capabilities.
+                <br />
+              </li>
+            </ul>
+          </div>
           <br />
         </AboutText>
       </InfoContainer>

@@ -34,7 +34,7 @@ const FooterStyles = styled.footer`
     }
     .active {
       color: #ecf39e;
-      font-weight: bold; /* Add a style for the active link */
+      font-weight: bold; 
     }
   }
 `;

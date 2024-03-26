@@ -34,7 +34,7 @@ const NavMenuStyles = styled.div`
         }
         .active {
             color: #ecf39e;
-            font-weight: bold; /* Add a style for the active link */
+            font-weight: bold; 
         }
     }
 `;
@@ -44,19 +44,19 @@ export default function NavMenu() {
         <NavMenuStyles>
             <ul>
                 <li>
-                    <NavLink exact to="/" activeClassName="active">HOME</NavLink>
+                    <NavLink exact="true" to="/" activeclassname="active">HOME</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about" activeClassName="active">ABOUT ME</NavLink>
+                    <NavLink to="/about" activeclassname="active">ABOUT ME</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/resume" activeClassName="active">RESUME</NavLink>
+                    <NavLink to="/resume" activeclassname="active">RESUME</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/portfolio" activeClassName="active">PORTFOLIO</NavLink>
+                    <NavLink to="/portfolio" activeclassname="active">PORTFOLIO</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/Contact" activeClassName="active">CONTACT</NavLink>
+                    <NavLink to="/Contact" activeclassname="active">CONTACT</NavLink>
                 </li>
             </ul>
         </NavMenuStyles>
