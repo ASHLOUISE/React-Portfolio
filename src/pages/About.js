@@ -124,13 +124,6 @@ export default function About() {
             </li>
           </ul>
           <br />
-          <strong>My Passion for Web Development</strong>
-          <br />
-          What drives me is the endless possibilities that web development
-          offers. I thrive on challenges and love to push the boundaries of
-          what's possible on the web. Whether it's building a simple yet elegant
-          user interface or architecting complex backend systems, I approach
-          each project with enthusiasm and a commitment to excellence.
         </AboutText>
       </InfoContainer>
     </Container>
