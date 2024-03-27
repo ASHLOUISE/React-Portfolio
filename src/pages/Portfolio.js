@@ -52,12 +52,14 @@ const ProjectImage = styled.img`
 const ProjectTitle = styled.h3`
   margin-top: 10px;
   font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
 `;
 
 const ProjectLinks = styled.div`
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
+  font-family: "Poppins", sans-serif;
 `;
 
 const Link = styled.a`
